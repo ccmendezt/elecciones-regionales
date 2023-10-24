@@ -2,7 +2,7 @@
 
 Prueba técnica tecnólogo Elecciones Electorales - OAS Universidad Distrital.
 
-Stack Tecnológico Utilizado:
+Stack Tecnológico utilizado:
 
 - **Back-end:** TypeScript, NestJS, Express.js, TypeORM & PostgreSQL
 - **Front-end:** JavaScript & React
@@ -98,12 +98,13 @@ El CRUD para Partidos políticos, Candidatos y Votos se realizó en su totalidad
 - **Modelo Relacional**:
   El modelo relacional utilizado para este proyecto es:
   ![Modelo Relacional](assets/ModeloRelacional.png)
+  La persistencia se garantizó mediante una BD SQL hecha en PostgreSQL.
 
 ### Notas Finales
 
 **Adicionales Realizados:**
 
-- Se realizó Frontend en React.
+- Se realizó el Frontend del proyecto en React.
 - Se documentó la API con Swagger en su totalidad:
   ![Documentación Swagger](assets/swaggerDoc.gif)
 - No me fue posible desplegar el proyecto por cuestiones de tiempo.
