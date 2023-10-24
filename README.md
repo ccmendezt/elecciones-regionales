@@ -93,6 +93,8 @@ El CRUD para Partidos políticos, Candidatos y Votos se realizó en su totalidad
 4. **Delete - Eliminar un voto**: Utilizamos el método delete para eliminar un voto.
    ![Eliminar partido](assets/eliminarVoto.gif)
 
+- **Estructura empleada**: La estructura empleada en el proyecto fue MVC, desde backend dividido por módulos, en donde cada módulo tiene su propia entidad, controlador (para manejar peticiones HTTP) y servicios de cada módulo. Para el frontend, se creó un apartado de vistas donde se manejan todas las vistas mostradas anteriormente.
+
 - **Modelo Relacional**:
   El modelo relacional utilizado para este proyecto es:
   ![Modelo Relacional](assets/ModeloRelacional.png)
