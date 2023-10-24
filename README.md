@@ -4,8 +4,8 @@ Prueba técnica tecnólogo Elecciones Electorales - OAS Universidad Distrital.
 
 Stack Tecnológico Utilizado:
 
-- Back-end: **TypeScript, NestJS, Express.js, TypeORM & PostgreSQL**
-- Front-end: **JavaScript, React**
+- **Back-end:** TypeScript, NestJS, Express.js, TypeORM & PostgreSQL
+- **Front-end:** JavaScript & React
 
 **Realizado por:** _Cristian Camilo Méndez Trujillo_
 
@@ -69,29 +69,29 @@ El CRUD para Partidos políticos, Candidatos y Votos se realizó en su totalidad
 
 - Peticiones para **Candidatos**:
 
-1. **Post - Inserción de nuevo candidatos**:
+1. **Post - Inserción de nuevo candidato**:
    Utilizamos el metodo Post para crear un nuevo candidato.
-   ![Creación de partido](assets/crearCandidato.gif)
+   ![Creación de candidato](assets/crearCandidato.gif)
 2. **Get - Obtener todos los candidatos**:
    Utilizamos el método Get para listar todos los candidatos en la base de datos.
-   ![Obtener partidos](assets/obtenerCandidatos.gif)
+   ![Obtener candidatos](assets/obtenerCandidatos.gif)
 3. **Patch - Editar un candidato**: Utilizamos el método Patch para editar un candidato.
-   ![Editar partido](assets/editarCandidato.gif)
+   ![Editar candidato](assets/editarCandidato.gif)
 4. **Delete - Eliminar un candidato**: Utilizamos el método delete para eliminar un candidato.
-   ![Eliminar partido](assets/eliminarCandidato.gif)
+   ![Eliminar candidato](assets/eliminarCandidato.gif)
 
 - Peticiones para **Votos**:
 
-1. **Post - Inserción de nuevo candidatos**:
-   Utilizamos el metodo Post para crear un nuevo candidato.
-   ![Creación de partido](assets/crearCandidato.gif)
-2. **Get - Obtener todos los candidatos**:
-   Utilizamos el método Get para listar todos los candidatos en la base de datos.
-   ![Obtener partidos](assets/obtenerCandidatos.gif)
-3. **Patch - Editar un candidato**: Utilizamos el método Patch para editar un candidato.
-   ![Editar partido](assets/editarCandidato.gif)
-4. **Delete - Eliminar un candidato**: Utilizamos el método delete para eliminar un candidato.
-   ![Eliminar partido](assets/eliminarCandidato.gif)
+1. **Post - Inserción de nuevo voto**:
+   Utilizamos el metodo Post para crear un nuevo voto.
+   ![Creación de voto](assets/crearVoto.gif)
+2. **Get - Obtener todos los votos**:
+   Utilizamos el método Get para listar todos los votos en la base de datos.
+   ![Obtener partidos](assets/obtenerVotos.gif)
+3. **Patch - Editar un voto**: Utilizamos el método Patch para editar un voto.
+   ![Editar partido](assets/editarVoto.gif)
+4. **Delete - Eliminar un voto**: Utilizamos el método delete para eliminar un voto.
+   ![Eliminar partido](assets/eliminarVoto.gif)
 
 - **Modelo Relacional**:
   El modelo relacional utilizado para este proyecto es:
@@ -102,7 +102,8 @@ El CRUD para Partidos políticos, Candidatos y Votos se realizó en su totalidad
 **Adicionales Realizados:**
 
 - Se realizó Frontend en React.
-- Se documentó la API en Swagger
+- Se documentó la API con Swagger en su totalidad:
+  ![Documentación Swagger](assets/swaggerDoc.gif)
 - No me fue posible desplegar el proyecto por cuestiones de tiempo.
 
 ¡Gracias!
